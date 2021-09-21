@@ -1,13 +1,22 @@
 {
   "name": "tves",
   "version": "0.1.0",
+  "homepage":"https://drfernando.github.io/tves",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@mui/icons-material": "^5.0.0",
+    "@mui/material": "^5.0.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "bootstrap": "^5.1.0",
     "react": "^17.0.2",
+    "react-bootstrap": "^2.0.0-beta.6",
     "react-dom": "^17.0.2",
+    "react-multi-carousel": "^2.6.5",
+    "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
@@ -15,7 +24,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
