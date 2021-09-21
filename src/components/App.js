@@ -8,8 +8,8 @@ import Footer from "./Footer/Footer";
 function App() {
   return (
     <Router>
-      <Header/>
-      <Route exact path="/tves/"><Home/></Route>
+      <Header/>        
+      <Home/>
       <Footer/>      
     </Router>
   );
