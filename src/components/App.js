@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <Header/>
-      <Route exact path="/"><Home/></Route>
+      <Route exact path="/tves/"><Home/></Route>
       <Footer/>      
     </Router>
   );
